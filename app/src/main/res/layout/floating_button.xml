@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Ana Buton -->
+    <Button
+        android:id="@+id/btnMain"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="⚡"
+        android:textSize="24sp"
+        android:background="@drawable/floating_bg"
+        android:textColor="#FFFFFF"
+        android:padding="0dp"
+        android:gravity="center" />
+
+    <!-- Menü (başlangıçta gizli) -->
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#DD000000"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnToggle"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="▶ Başlat"
+            android:textSize="14sp"
+            android:background="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp" />
+
+        <Button
+            android:id="@+id/btnLog"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="📊 Log"
+            android:textSize="14sp"
+            android:background="#2196F3"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📸 0"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+</LinearLayout>

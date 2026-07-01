@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SnapBot"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skor Kasma Botu"
+        android:textSize="16sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Kalibrasyon Butonları -->
+    <Button
+        android:id="@+id/btnCalibrateShutter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="📸 Deklanşör Kalibre Et"
+        android:textSize="14sp"
+        android:background="#FF5722"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCalibrateSend"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="📤 Gönder Kalibre Et"
+        android:textSize="14sp"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCalibrateShortcut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="👥 Kısayol Kalibre Et"
+        android:textSize="14sp"
+        android:background="#9C27B0"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCalibrateFinal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="✅ Son Gönder Kalibre Et"
+        android:textSize="14sp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnPermission"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="🔓 Erişilebilirlik İzni Ver"
+        android:textSize="14sp"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnBattery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="🔋 Pil Optimizasyonunu Kapat"
+        android:textSize="14sp"
+        android:background="#9C27B0"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="🚀 Başlat"
+        android:textSize="16sp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="⏹ Durdur"
+        android:textSize="16sp"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="📊 Log Göster"
+        android:textSize="14sp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hazır"
+        android:textColor="#AAAAAA"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
